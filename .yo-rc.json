@@ -1,0 +1,47 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.block.app"
+    },
+    "jhipsterVersion": "6.2.0",
+    "applicationType": "monolith",
+    "baseName": "block",
+    "packageName": "com.block.app",
+    "packageFolder": "com/block/app",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Memory",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "gradle",
+    "enableSwaggerCodegen": true,
+    "jwtSecretKey": "MGE1NTcyMWU2MzQ0Yjg1MDI5OTM2YzRmMDdkMzc1MDAwZDcwZDVjZTM5MjZhZGJlNzNlZGI0MmZjMmU4MzIzZGZmNDYxNzZkM2Q5ZWU4ODdhMDMxODkyMzFhOGQzOGE1MWRmMjM3NmM5ZmM2M2I0YmIwNDQwOWZhZWVkZGMwZWI=",
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "clientFramework": "react",
+    "clientTheme": "cosmo",
+    "clientThemeVariant": "primary",
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [
+      {
+        "name": "generator-jhipster-nav-element",
+        "version": "2.1.10"
+      },
+      {
+        "name": "generator-jhipster-blockchain",
+        "version": "0.0.1"
+      }
+    ],
+    "enableTranslation": false,
+    "blueprints": []
+  }
+}
